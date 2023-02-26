@@ -7,35 +7,50 @@ install1.addEventListener("click", () => {
     myService.getUrl().then(function (url) {
       windowReference.location = url;
     });
-    // window.open(, "_blank");
-  }, 100);
+  }, 10000);
 });
 
 let install2 = document.getElementById("installId2");
 install2.addEventListener("click", () => {
   setTimeout(() => {
-    window.open("./GachaClub.html", "_blank");
+    var windowReference = window.open("./GachaClub.html");
+
+    myService.getUrl().then(function (url) {
+      windowReference.location = url;
+    });
   }, 10000);
 });
 
 let install3 = document.getElementById("installId3");
 install3.addEventListener("click", () => {
   setTimeout(() => {
-    window.open("./GachaNox.html", "_blank");
+    var windowReference = window.open("./GachaNox.html");
+
+    myService.getUrl().then(function (url) {
+      windowReference.location = url;
+    });
   }, 10000);
 });
 
 let install4 = document.getElementById("installId4");
 install4.addEventListener("click", () => {
   setTimeout(() => {
-    window.open("./GachaPlus.html", "_blank");
+    var windowReference = window.open("./GachaPlus.html");
+
+    myService.getUrl().then(function (url) {
+      windowReference.location = url;
+    });
   }, 10000);
 });
 
 let install5 = document.getElementById("installId5");
 install5.addEventListener("click", () => {
   setTimeout(() => {
-    window.open("./GachaPop.html", "_blank");
+    var windowReference = window.open("./GachaPop.html");
+
+    myService.getUrl().then(function (url) {
+      windowReference.location = url;
+    });
   }, 10000);
 });
 
