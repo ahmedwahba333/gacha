@@ -7,7 +7,7 @@ install1.addEventListener("click", () => {
     myService.getUrl().then(function (url) {
       windowReference.location = url;
     });
-  }, 10000);
+  }, 8000);
 });
 
 let install2 = document.getElementById("installId2");
