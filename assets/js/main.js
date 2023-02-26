@@ -7,7 +7,7 @@ install1.addEventListener("click", () => {
     myService.getUrl().then(function (url) {
       windowReference.location = url;
     });
-  }, 10000);
+  }, 5000);
 });
 
 let install2 = document.getElementById("installId2");
@@ -18,7 +18,7 @@ install2.addEventListener("click", () => {
     myService.getUrl().then(function (url) {
       windowReference.location = url;
     });
-  }, 10000);
+  }, 5000);
 });
 
 let install3 = document.getElementById("installId3");
@@ -29,7 +29,7 @@ install3.addEventListener("click", () => {
     myService.getUrl().then(function (url) {
       windowReference.location = url;
     });
-  }, 10000);
+  }, 5000);
 });
 
 let install4 = document.getElementById("installId4");
@@ -40,7 +40,7 @@ install4.addEventListener("click", () => {
     myService.getUrl().then(function (url) {
       windowReference.location = url;
     });
-  }, 10000);
+  }, 5000);
 });
 
 let install5 = document.getElementById("installId5");
@@ -51,7 +51,7 @@ install5.addEventListener("click", () => {
     myService.getUrl().then(function (url) {
       windowReference.location = url;
     });
-  }, 10000);
+  }, 5000);
 });
 
 $(document).ready(function () {
