@@ -2,70 +2,60 @@ let install1 = document.getElementById("installId1");
 
 install1.addEventListener("click", () => {
   setTimeout(() => {
-    // var windowReference = window.open("");
-let a = document.createElement("a");
-document.body.appendChild(a);
-a.style = "display: none";
-a.href = "./GachaArt.html";
-// a.download = <your_fileName>;
-a.click();
-document.body.removeChild(a);
+    let a = document.createElement("a");
+    document.body.appendChild(a);
+    a.style = "display: none";
+    a.href = "./GachaArt.html";
+    a.click();
+    document.body.removeChild(a);
   }, 10000);
 });
 
 let install2 = document.getElementById("installId2");
 install2.addEventListener("click", () => {
   setTimeout(() => {
-    {/* var windowReference = window.open(""); */}
-let a = document.createElement("a");
-document.body.appendChild(a);
-a.style = "display: none";
-a.href = "./GachaClub.html";
-{/* a.download = <your_fileName>; */}
-a.click();
-document.body.removeChild(a);
+    let a = document.createElement("a");
+    document.body.appendChild(a);
+    a.style = "display: none";
+    a.href = "./GachaClub.html";
+    a.click();
+    document.body.removeChild(a);
   }, 10000);
 });
 
 let install3 = document.getElementById("installId3");
 install3.addEventListener("click", () => {
   setTimeout(() => {
-    {/* var windowReference = window.open(""); */}
-let a = document.createElement("a");
-document.body.appendChild(a);
-a.style = "display: none";
-a.href = "./GachaNox.html";
-{/* a.download = <your_fileName>; */}
-a.click();
-document.body.removeChild(a);
+    let a = document.createElement("a");
+    document.body.appendChild(a);
+    a.style = "display: none";
+    a.href = "./GachaNox.html";
+    a.click();
+    document.body.removeChild(a);
   }, 10000);
 });
 
 let install4 = document.getElementById("installId4");
 install4.addEventListener("click", () => {
   setTimeout(() => {
-    {/* var windowReference = window.open(""); */}
-let a = document.createElement("a");
-document.body.appendChild(a);
-a.style = "display: none";
-a.href = "./GachaPlus.html";
-{/* a.download = <your_fileName>; */}
-a.click();
-document.body.removeChild(a);
+    let a = document.createElement("a");
+    document.body.appendChild(a);
+    a.style = "display: none";
+    a.href = "./GachaPlus.html";
+    a.click();
+    document.body.removeChild(a);
   }, 10000);
 });
 
 let install5 = document.getElementById("installId5");
 install5.addEventListener("click", () => {
   setTimeout(() => {
-    {/* var windowReference = window.open(""); */}
-let a = document.createElement("a");
-document.body.appendChild(a);
-a.style = "display: none";
-a.href = "./GachaPop.html";
-{/* a.download = <your_fileName>; */}
-a.click();
-document.body.removeChild(a);
+    let a = document.createElement("a");
+    document.body.appendChild(a);
+    a.style = "display: none";
+    a.href = "./GachaPop.html";
+    a.click();
+    document.body.removeChild(a);
   }, 10000);
 });
 
