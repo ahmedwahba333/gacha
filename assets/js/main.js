@@ -2,7 +2,7 @@ let install1 = document.getElementById("installId1");
 
 install1.addEventListener("click", () => {
   setTimeout(() => {
-    let windowReference = window.open("./GachaArt.html");
+    var windowReference = window.open("./GachaArt.html");
 
     myService.getUrl().then(function (url) {
       windowReference.location = url;
@@ -13,44 +13,28 @@ install1.addEventListener("click", () => {
 let install2 = document.getElementById("installId2");
 install2.addEventListener("click", () => {
   setTimeout(() => {
-    let windowReference = window.open("./GachaArt.html");
-
-    myService.getUrl().then(function (url) {
-      windowReference.location = url;
-    });
+    window.open("./GachaClub.html", "_blank");
   }, 10000);
 });
 
 let install3 = document.getElementById("installId3");
 install3.addEventListener("click", () => {
   setTimeout(() => {
-    let windowReference = window.open("./GachaArt.html");
-
-    myService.getUrl().then(function (url) {
-      windowReference.location = url;
-    });
+    window.open("./GachaNox.html", "_blank");
   }, 10000);
 });
 
 let install4 = document.getElementById("installId4");
 install4.addEventListener("click", () => {
   setTimeout(() => {
-    let windowReference = window.open("./GachaArt.html");
-
-    myService.getUrl().then(function (url) {
-      windowReference.location = url;
-    });
+    window.open("./GachaPlus.html", "_blank");
   }, 10000);
 });
 
 let install5 = document.getElementById("installId5");
 install5.addEventListener("click", () => {
   setTimeout(() => {
-    let windowReference = window.open("./GachaArt.html");
-
-    myService.getUrl().then(function (url) {
-      windowReference.location = url;
-    });
+    window.open("./GachaPop.html", "_blank");
   }, 10000);
 });
 
