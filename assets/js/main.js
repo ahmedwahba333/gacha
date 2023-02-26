@@ -5,7 +5,7 @@ setTimeout(() => {
       window.open("./GachaArt.html", "_blank");
     }, 10000);
   });
-});
+},1);
 
 let install2 = document.getElementById("installId2");
 setTimeout(() => {
